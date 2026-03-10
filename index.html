@@ -2,14 +2,14 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Caça-palavras Backend & SQL</title>
+<title>Caça-palavras </title>
 <style>
-  body { font-family: Arial, sans-serif; background:#1e1e2e; color:#fff; text-align:center; margin:0 }
-  h1 { background:#942b33; padding:10px; margin:0 }
+  body { font-family: Arial, sans-serif; background:#000000; color:#fff; text-align:center; margin:0 }
+  h1 { background:#1c6172; padding:10px; margin:0 }
   #score,#phase { font-size:18px; margin:5px }
   #grid { display:grid; gap:2px; justify-content:center; margin:20px auto }
   .cell { width:35px; height:35px; background:#2d2d3a; display:flex; align-items:center; justify-content:center; cursor:pointer; user-select:none; border-radius:5px; font-weight:bold; }
-  .cell.selected { outline:2px solid #c42d3a; }
+  .cell.selected { outline:2px solid #3b3233; }
   .cell.found { background:#d63e3e; color:#fff; }
   #words { max-width:320px; margin:0 auto; text-align:left }
   #words li { list-style:none; padding:6px 8px; border-bottom:1px solid rgba(255,255,255,.1) }
@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<h1>Caça-palavras: Backend & SQL</h1>
+<h1>Caça-palavras: albuns L</h1>
 <div id="score">Pontuação: 0</div>
 <div id="phase">Fase: 1 / 13</div>
 <div id="grid"></div>
@@ -28,10 +28,10 @@
 
 <script>
 const phases = [
-  {words:["BACKEND","API","ROUTES","DATABASE","QUERY"], size:10},
-  {words:["SELECT","INSERT","UPDATE","DELETE","TABLE"], size:10},
-  {words:["SERVER","JSON","POST","GET","INDEX"], size:10},
-  {words:["PRIMARY","FOREIGN","KEY","RELATION","JOIN"], size:10},
+  {words:["hades","portals","teacher","crybaby","void"], size:10},
+  {words:["cicler","garbage","monolotman","tunel","death"], size:10},
+  {words:["possesion","disneyprincess","visions","guywithagun","numbers"], size:10},
+  {words:["boyrun","girl","KEY","RELATION","JOIN"], size:10},
   {words:["MYSQL","POSTGRES","MONGODB","SQLITE","TRIGGER"], size:10},
   {words:["CACHE","SESSION","COOKIE","AUTH","TOKEN"], size:10},
   {words:["LINUX","SHELL","SCRIPT","BASH","CRON"], size:10},
